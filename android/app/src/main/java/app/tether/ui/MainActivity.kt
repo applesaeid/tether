@@ -267,6 +267,7 @@ class MainActivity : Activity() {
         val help = card(getString(R.string.section_help))
         help.addView(label(getString(R.string.report_hint), R.color.muted, 13f))
         help.addView(button(getString(R.string.report_title)) { ReportUi.send(this) { PhoneReport.build(app) } })
+        help.addView(label(getString(R.string.about_developer), R.color.muted, 13f))
     }
 
     /**
