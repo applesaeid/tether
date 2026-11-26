@@ -109,7 +109,7 @@
   self-test's choice) (#15).
 - The iPhone's voice goes into the call only once it is connected: nothing piles up while dialing.
 - With Bluetooth tethering on: frequent hold-ups get a larger uplink cushion (60 ms instead of 45), and what a long
-  stall delivers late is thrown away at once instead of delaying the call for a minute.
+  stall delivers late is dropped at once instead of delaying the call for a minute.
 - Samsung phones with a Qualcomm chip (Galaxy A71, A73, Fold) also mute the voice-call stream, so the earpiece is silent
   even where Samsung's keys do nothing (#15). The `telephony_tx` path is checked to be routed to the call, and built
   without a low-latency track some Qualcomm phones refuse (#15).
