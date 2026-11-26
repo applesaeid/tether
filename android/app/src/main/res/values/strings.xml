@@ -124,6 +124,7 @@
     <string name="adb_paired_no_connect">Paired, but could not connect yet (%1$s). Tether tries again while Wireless debugging is on.</string>
     <!-- Help › problem report -->
     <string name="section_help">Help</string>
+    <string name="about_developer">Developer: applesaeid</string>
     <string name="report_title">Send a problem report</string>
     <string name="report_hint">One file with what is needed to find a problem with setup, pairing, the link, calls, call audio, texts, contacts or tethering. Phone numbers, names, message text, e-mail, addresses and keys are left out. Attach it to your issue on GitHub.</string>
     <string name="report_preparing">Preparing the report… This can take up to half a minute.</string>
